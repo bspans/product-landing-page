@@ -1,0 +1,42 @@
+nav ul{display: flex;
+}
+nav {background-color: #BFCBFD;
+     padding: 10px;
+     border-color:#D34C86;
+}
+h1{background-color:#23B4D1;}
+p{background-color:#F1680A;
+text-color:#D34C86;
+}
+
+.thin-border{ border-color: #D34C86;
+    border-width: 5px;
+    border-style: solid;}
+@media (max-width: 350px)
+.small-image{
+  width:20%;
+}
+
+.small-image{
+  width:50%;
+}
+
+
+.logo-image{
+  max-width: 75px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  max-height: 75px;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+main{
+  display: flex;
+  flex-direction:column;
+  padding: 75px;
+}
